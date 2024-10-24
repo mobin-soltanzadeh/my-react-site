@@ -1,13 +1,51 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer base {
+    @font-face {
+        font-family: Adlery-a;
+        src: url(../public/data/font/Adlery/Adlery-Pro-Blockletter-trial.ttf);
+    }
+        
+    @font-face {
+        font-family: Adlery-b;
+        src: url(../public/data/font/Adlery/Adlery-Pro-trial.ttf);
+    }
+    @font-face {
+        font-family: Adlery-c;
+        src: url(../public/data/font/Adlery/Adlery-Swash-trial.ttf);
+    }
+    @font-face {
+        font-family: Mangiola;
+        src: url(../public/data/font/Mangiola/Mangiola-Regular.ttf);
+    }
+    @font-face {
+        font-family: Vazir1;
+        src: url(../public/data/font/Vazir/Vazirmatn-ExtraLight.ttf);
+    }
+    @font-face {
+        font-family: Vazir2;
+        src: url(../public/data/font/Vazir/Vazirmatn-Light.ttf);
+    }
+    @font-face {
+        font-family: Vazir3;
+        src: url(../public/data/font/Vazir/Vazirmatn-Medium.ttf);
+    }
+    @font-face {
+        font-family: Shabnam1;
+        src: url(../public/data/font/Shabnam/Shabnam-FD.ttf);
+    }
+    @font-face {
+        font-family: Shabnam2;
+        src: url(../public/data/font/Shabnam/Shabnam-Light-FD.ttf);
+    }
+    @font-face {
+        font-family: Shabnam3;
+        src: url(../public/data/font/Shabnam/Shabnam-Medium-FD.ttf);
+    }
+    @font-face {
+        font-family: Shabnam4;
+        src: url(../public/data/font/Shabnam/Shabnam-Thin-FD.ttf);
+    }
 }
