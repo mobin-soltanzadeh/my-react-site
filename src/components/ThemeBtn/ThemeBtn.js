@@ -30,7 +30,7 @@ export default function Theme(props) {
  
     
     return (
-        <button className='Theme relative w-8 h-8 pt-1 text-neutral-500 hover:text-orange-500 z-50' onClick={changetheme}>
+        <button className='Theme relative w-8 h-8 pt-1 text-neutral-500 dark:text-zinc-900 hover:text-orange-500 dark:hover:text-orange-500 z-50' onClick={changetheme}>
             <HiOutlineMoon className='moon absolute left-0 top-0 w-full h-full scale-100 dark:scale-0 dark:rotate-[360deg] transition-all duration-500'/>
             <HiOutlineSun className='sun absolute left-0 top-0 w-full h-full scale-0 dark:scale-100 dark:rotate-[360deg] transition-all duration-500'/>
         </button>

@@ -1,7 +1,5 @@
 import React from "react";
-import { useState, useRoutes } from "react-router";
-
-
+import { useRoutes } from "react-router";
 
 import routes from "./routes"
 

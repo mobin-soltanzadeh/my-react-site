@@ -21,6 +21,10 @@
         src: url(../public/data/font/Mangiola/Mangiola-Regular.ttf);
     }
     @font-face {
+        font-family: Alegreya;
+        src: url(../public/data/font/Alegreya-Regular.ttf);
+    }
+    @font-face {
         font-family: Vazir1;
         src: url(../public/data/font/Vazir/Vazirmatn-ExtraLight.ttf);
     }

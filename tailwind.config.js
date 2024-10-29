@@ -18,6 +18,7 @@ module.exports = {
             "adlery-b": "Adlery-b",
             "adlery-c": "Adlery-c",
             "mangiola": "Mangiola",
+            "alegreya": "Alegreya",
             "vazir-extraLight" : "Vazir1",
             "vazir-light" : "Vazir2",
             "vazir-medium" : "Vazir3",

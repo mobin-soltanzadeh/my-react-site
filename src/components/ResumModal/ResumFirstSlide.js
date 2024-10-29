@@ -5,8 +5,6 @@ export default function ResumFirstSlide() {
         <div className="flex flex-col gap-y-8 mt-20 overflow-hidden">
             <h1 className="text-6xl">Profile</h1>
 
-            {/* <span className="w-full h-[3px] bg-gray-400 rounded-full"></span> */}
-
             <div className="flex">
                 <div className="w-1/2 flex flex-col pr-14">
                     <h1 className="text-3xl text-emerald-400 mb-4">About me</h1>
