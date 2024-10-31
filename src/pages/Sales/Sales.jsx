@@ -35,7 +35,7 @@ export default function Sales() {
     ];
 
     return (
-        <div dir="ltr" className="Sales grow basis-5/6">
+        <div dir="ltr" className="Sales grow basis-4/5">
             <Box sx={{width: "100%", height: "100%"}}>
                 <DataGrid 
                 rows={SalesDataRows}

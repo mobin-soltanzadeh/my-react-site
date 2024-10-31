@@ -29,7 +29,7 @@ export default function Reports() {
     const [reportsRows, setReportsRows] = useState([...ReportsDataRows]);
     
     return (
-        <div dir="ltr" className="Reports grow basis-5/6 w-full dark:text-white">
+        <div dir="ltr" className="Reports grow basis-4/5 w-full dark:text-white">
         {
             (reportsRows.length > 0) && 
             <Box sx={{ height: "100%", width: '100%' }}>

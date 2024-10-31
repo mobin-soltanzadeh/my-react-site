@@ -108,7 +108,7 @@ export default function Products() {
     }
     
     return (
-        <div dir="ltr" className="Products grow basis-5/6 w-full">
+        <div dir="ltr" className="Products grow basis-4/5 w-full">
         {
             // require("../../data/images/woman1.jpg")
             (productsRows.length > 0) && 
