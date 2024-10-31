@@ -1,0 +1,13 @@
+.Sidebar {
+    flex-basis: 13%;
+    flex-grow: 0;
+}
+
+.Sidebar:hover {
+    flex-basis: 20%;
+}
+
+.AdminHome {
+    flex-basis: 80%;
+    flex-grow: 1;
+}
