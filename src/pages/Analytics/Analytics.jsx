@@ -6,9 +6,7 @@ import Chart from "../../components/Chart/Chart"
 import Features from "../../components/Features/Feature";
 
 export default function Analytics() {
-    const [language, setLanguage] = useOutletContext()    
-    console.log(monthSales);
-    
+    const [language, setLanguage] = useOutletContext()
 
     return (
         <div className="AdminHome basis-5/6 grow flex flex-col justify-start items-center gap-y-6 w-full">

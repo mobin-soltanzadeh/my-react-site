@@ -24,7 +24,7 @@ export default function App() {
     
 
     return (
-        <div dir={language==="en"? "ltr": "rtl"} className={`App h-screen font-dana-medium text-gray-900 dark:text-gray-200 bg-gray-300 dark:bg-zinc-900 `}>
+        <div dir={language==="en"? "ltr": "rtl"} className={`AdminPage h-screen font-dana-medium text-gray-900 dark:text-gray-200 bg-gray-300 dark:bg-zinc-900 `}>
             {showModal && <ResumModal />}
 
             <Topbar lang={language} changeLang={changeLanguage}/>

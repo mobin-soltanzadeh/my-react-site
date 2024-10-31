@@ -20,7 +20,7 @@ export default function WebsiteHome() {
     // }
 
     return (
-        <div dir="ltr" className="WebsiteHome font-dana-medium bg-gray-300 dark:bg-gray-900 transition-colors duration-1000">        
+        <div dir="ltr" className="WebsitePage font-dana-medium bg-gray-300 dark:bg-gray-900 transition-colors duration-1000">        
             {/* {showModal && <ResumModal />} */}
             <Header lang={language} changeLang={changeLanguage} />
             <Main />
