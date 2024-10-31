@@ -20,9 +20,6 @@ export default function App() {
         setLanguage(language==="en"? "fa": "en")
     }
 
-
-    
-
     return (
         <div dir={language==="en"? "ltr": "rtl"} className={`AdminPage h-screen font-dana-medium text-gray-900 dark:text-gray-200 bg-gray-300 dark:bg-zinc-900 `}>
             {showModal && <ResumModal />}
