@@ -10,9 +10,9 @@ import UserImage from "../../components/UserImage/UserImage";
 
 export default function Reports() {
     const [reportsColumns, setReportsColumns] = useState([
-        {field: "id", headerName: "Id", headerAlign: "center", width: 130, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "id", headerName: "Id", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 130, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
         {
-            field: "user", headerName: "From User", headerAlign: "center", width: 250, align: "center",
+            field: "user", headerName: "From User", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 250, align: "center",
             renderCell: params => {
                 return (
                     <div className="text-gray-900 dark:text-gray-200 flex justify-start items-center gap-x-2">
@@ -22,8 +22,8 @@ export default function Reports() {
                 )
             }
         },
-        {field: "title", headerName: "Title", headerAlign: "center", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
-        {field: "massage", headerName: "Massage", headerAlign: "center", width: 250, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "title", headerName: "Title", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "massage", headerName: "Massage", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 250, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
     ]);
 
     const [reportsRows, setReportsRows] = useState([...ReportsDataRows]);

@@ -14,9 +14,9 @@ import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 
 export default function UserList() {
     const [usersColumns, setUsersColumns] = useState([
-        {field: "id", headerName: "Id", headerAlign: "center", width: 100, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "id", headerName: "Id", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 100, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
         {
-            field: "user", headerName: "User", headerAlign: "center", width: 250, align: "center",
+            field: "user", headerName: "User", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 250, align: "center",
             renderCell: params => {
                 return (
                     <div className="text-gray-900 dark:text-gray-200 flex justify-start items-center gap-x-2">
@@ -26,12 +26,12 @@ export default function UserList() {
                 )
             }
         },
-        {field: "username", headerName: "Username", headerAlign: "center", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
-        {field: "email", headerName: "Email", headerAlign: "center", width: 200, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
-        {field: "status", headerName: "Status", headerAlign: "center", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
-        {field: "actions", headerName: "TransActions", headerAlign: "center", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "username", headerName: "Username", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "email", headerName: "Email", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 200, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "status", headerName: "Status", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "actions", headerName: "TransActions", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
         {
-            field: "remove-edit", headerName: "Actions", width: 150, headerAlign: "center",
+            field: "remove-edit", headerName: "Actions", width: 150, headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold",
             renderCell: params => {
                 return (
                     <div className="flex justify-center items-center gap-x-2">

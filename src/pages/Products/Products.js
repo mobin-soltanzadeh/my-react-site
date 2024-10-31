@@ -15,10 +15,10 @@ import DeleteOutlinedIcon from '@mui/icons-material/DeleteOutlined';
 
 export default function Products() {
     const [usersColumns, setUsersColumns] = useState([
-        {field: "id", headerName: "Id", headerAlign: "center", width: 100, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
-        {field: "type", headerName: "Type", headerAlign: "center", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "id", headerName: "Id", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 100, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "type", headerName: "Type", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
         {
-            field: "product", headerName: "Product", width: 250, headerAlign: "center",
+            field: "product", headerName: "Product", width: 250, headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold",
             renderCell: (params) => {
                 return (
                     <div className="flex justify-start items-center gap-x-2 text-gray-900 dark:text-gray-200">
@@ -29,10 +29,10 @@ export default function Products() {
                 )
             }
         },
-        {field: "count", headerName: "Count", headerAlign: "center", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
-        {field: "price", headerName: "Price", headerAlign: "center", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "count", headerName: "Count", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "price", headerName: "Price", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
         {
-            field: "remove-edit", headerName: "Actions", width: 150, headerAlign: "center",
+            field: "remove-edit", headerName: "Actions", width: 150, headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold",
             renderCell: (params) => {
                 return (
                     <div className="flex justify-center items-center gap-x-2">

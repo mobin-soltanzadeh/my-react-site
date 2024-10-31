@@ -10,9 +10,9 @@ import UserImage from "../../components/UserImage/UserImage";
 
 export default function Mail() {
     const [MailsColumns, setReportsColumns] = useState([
-        {field: "id", headerName: "Id", headerAlign: "center", width: 130, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "id", headerName: "Id", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 130, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
         {
-            field: "from-user", headerName: "From User", headerAlign: "center", width: 250, align: "center",
+            field: "from-user", headerName: "From User", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 250, align: "center",
             renderCell: params => {
                 return (
                     <div className="text-gray-900 dark:text-gray-200 flex justify-start items-center gap-x-2">
@@ -24,7 +24,7 @@ export default function Mail() {
         },
         
         {
-            field: "to-user", headerName: "To User", headerAlign: "center", width: 250, align: "center",
+            field: "to-user", headerName: "To User", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 250, align: "center",
             renderCell: params => {                
                 return (
                     <div className="text-gray-900 dark:text-gray-200 flex justify-start items-center gap-x-2">
@@ -34,8 +34,8 @@ export default function Mail() {
                 )
             }
         },
-        {field: "title", headerName: "Title", headerAlign: "center", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
-        {field: "massage", headerName: "Massage", headerAlign: "center", width: 250, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "title", headerName: "Title", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 150, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
+        {field: "massage", headerName: "Massage", headerAlign: "center", headerClassName: "text-[20px] font-dana-demibold", width: 250, align: "center", cellClassName: (params) => 'text-gray-900 dark:text-gray-200' },
     ]);
 
     const [MailsRows, setReportsRows] = useState([...MailsDataRows]);

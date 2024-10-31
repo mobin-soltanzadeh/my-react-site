@@ -30,7 +30,7 @@ export default function Header({lang, changeLang}) {
 
 
     return (
-        <header dir={lang==="en"? "ltr": "rtl"} style={{width: headerWidth, top: headerTop, backgroundColor: headerBg, borderRadius: headerRadius}} className='WebsiteHeader sticky flex justify-between items-center mx-auto text-zinc-080 dark:text-gray-100 text-base lg:text-lg xl:text-xl 2xl:text-2xl px-10 xl:px-20 2xl:px-40 py-4 shadow-lg border-b-[3px] border-b-zinc-900/30 backdrop-blur-[6px] transition-all duration-700 z-50'>
+        <header dir={lang==="en"? "ltr": "rtl"} style={{width: headerWidth, top: headerTop, backgroundColor: headerBg, borderRadius: headerRadius}} className='WebsiteHeader sticky flex justify-between items-center mx-auto text-zinc-080 dark:text-gray-100 text-base lg:text-lg xl:text-xl 2xl:text-2xl px-10 xl:px-20 py-4 shadow-lg border-b-[3px] border-b-zinc-900/30 backdrop-blur-[6px] transition-all duration-700 z-50'>
             {/* site Logo */}
             <Logo></Logo>
 

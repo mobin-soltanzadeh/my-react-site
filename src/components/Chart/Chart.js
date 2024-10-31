@@ -22,7 +22,7 @@ export default function Chart({lang, title, cartesian, data}) {
     ];
 
     return (
-        <div className="Chart font-mangiola relative flex flex-col gap-y-8 w-full p-4 shadow-md border rounded-lg">
+        <div className="Chart relative flex flex-col gap-y-8 w-full p-4 shadow-md border rounded-lg">
             <p className="text-xl base:text-2xl xl:text-4xl">{title}</p>
             <ResponsiveContainer width="100%" aspect={4}>
                 <LineChart data={XAxisData}  >

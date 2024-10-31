@@ -17,7 +17,7 @@ export default function FeatureItem({title, amount, amountDrop, desc}) {
                 </div>
                 
                 <div dir="ltr" className="flex items-center justify-center text-base md:text-xl lg:text-2xl font-serif">
-                    <span>{withSign(amountDrop)}</span>
+                    <span className="font-dana-medium">{withSign(amountDrop)}</span>
                     {
                         amountDrop>0 ? 
                         <IoArrowUp className="text-emerald-600 text-base md:text-xl lg:text-3xl pt-1" /> :

@@ -1,0 +1,6 @@
+.footer:hover {
+    background: linear-gradient(to right,#833ab4de,#fd1d1dc4,#fcb045d3);
+}
+.dark .footer:hover {
+    background: linear-gradient(to right,#833ab4,#fd1d1d,#fcb045);
+}
