@@ -17,13 +17,12 @@ export default function Footer({lang}) {
             <p className={`${lang==="en"? "font-mangiola": ""} text-3xl`} >{result[1]}</p>
             <div className="flex justify-center items-center gap-x-2">
 
-                <a href="https://t.me/msoltani1407" target="_blank" className="w-14 h-14"> <button className="bg-transparent dark:bg-transparent text-zinc-800 dark:text-white hover:bg-sky-500 dark:hover:bg-sky-500 rounded-full transition-colors duration-300"> <FaTelegramPlane className="w-14 h-14 p-2 -translate-x-0.5 translate-y-px" /></button> </a>
+                <a href="https://t.me/msoltani1407" target="_blank" className="w-14 h-14"> <button className="bg-transparent dark:bg-transparent text-zinc-800 dark:text-gray-200 hover:bg-sky-500 dark:hover:bg-sky-500 hover:text-gray-200 rounded-full transition-colors duration-300"> <FaTelegramPlane className="w-14 h-14 p-2 -translate-x-0.5 translate-y-px" /></button> </a>
 
-                <button className="footer bg-transparent dark:bg-transparent text-zinc-800 dark:text-white rounded-full transition-colors duration-300"> <FaInstagram className="w-14 h-14 p-2" /></button>
+                <button className="instaLogo bg-transparent dark:bg-transparent text-zinc-800 hover:text-gray-200 dark:text-gray-200 dark:hover:text-gray-200 rounded-full transition-colors duration-300"> <FaInstagram className="w-14 h-14 p-2" /></button>
 
-                <button className="bg-transparent dark:bg-transparent text-zinc-800 hover:text-gray-200 dark:text-white hover:bg-black dark:hover:bg-black rounded-full transition-colors duration-300"> <BsTwitterX className="w-14 h-14 p-2.5" /></button>
-                <a href="https://github.com/mobin-soltanzadeh" target="_blank" className="w-14 h-14"> <button className="bg-transparent dark:bg-transparent hover:bg-black dark:hover:bg-black dark:bg-neutral-300 text-zinc-800 hover:text-gray-200 dark:text-white  rounded-full transition-colors duration-300"> <PiGithubLogoFill className="w-14 h-14 p-2" /></button> </a>
-                
+                <button className="bg-transparent dark:bg-transparent text-zinc-800 hover:text-gray-200 dark:text-gray-200 dark:hover:text-gray-200 hover:bg-black dark:hover:bg-black rounded-full transition-colors duration-300"> <BsTwitterX className="w-14 h-14 p-2.5" /></button>
+                <a href="https://github.com/mobin-soltanzadeh" target="_blank" className="w-14 h-14"> <button className="bg-transparent dark:bg-transparent hover:bg-black dark:hover:bg-black dark:bg-neutral-300 text-zinc-800 hover:text-gray-200 dark:text-gray-200 rounded-full transition-colors duration-300"> <PiGithubLogoFill className="w-14 h-14 p-2" /></button> </a>
             </div>
         </div>
 
@@ -34,10 +33,9 @@ export default function Footer({lang}) {
             {/* <div className="w-[360px]"> */}
                 <h1 className="text-2xl mb-4">{result[2]}</h1>
                 <p>{result[3]}</p>
-                {/* <p>من یه دانشجوی کامپوتر هستم که به طراحی سایت و کار گروهی علاقه دارم, هدف از طراحی این سایت ساده این بوده که قسمتی از توانایی هامو به شما نشون بدم</p> */}
             </div>
         </div>
         
     </div>
-);
+    );
 }
