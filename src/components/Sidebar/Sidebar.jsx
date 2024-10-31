@@ -16,7 +16,7 @@ export default function Sidebar({lang}) {
     let growOnHover = (location.pathname==="/my-react-site/admin" || location.pathname==="/my-react-site/admin/")
     
     return (
-        <div dir={result[0]} className={`Sidebar basis-[13%] grow-0 ${ growOnHover? "hover:basis-1/5": ""} flex flex-col justify-start items-start gap-y-6 p-6 shadow-md border rounded-lg transition-[flex] duration-1000`}>
+        <div dir={result[0]} className={`Sidebar basis-[13%] grow-0 hover:basis-1/5 flex flex-col justify-start items-start gap-y-6 p-6 shadow-md border rounded-lg transition-[flex] duration-1000`}>
 
             <div className="side-bar-item flex flex-col gap-y-1 w-full">
                 <p className={`text-xl font-black ${lang==="en"? "font-mangiola tracking-[0.08em]": ""} text-neutral-600 dark:text-gray-200`} >{result[1]}</p>
