@@ -104,7 +104,7 @@ export default function UserList() {
     }
     
     return (
-        <div dir="ltr" className="UserList grow basis-5/6 w-full dark:text-white">
+        <div dir="ltr" className="UserList grow basis-5/6 w-full">
         {
             // require("../../data/images/woman1.jpg")
             (usersRows.length > 0) && 

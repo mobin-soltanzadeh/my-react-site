@@ -26,6 +26,11 @@ module.exports = {
             "shabnam-light" : "Shabnam2",
             "shabnam-medium" : "Shabnam3",
             "shabnam-thin" : "Shabnam4",
+            "dana-light" : "Dana1",
+            "dana-regular" : "Dana2",
+            "dana-medium" : "Dana3",
+            "dana-demibold" : "Dana4",
+            "dana-fa-medium" : "Dana5",
         }
         },
     },

@@ -11,7 +11,7 @@ export default function NotFound({type}) {
 
             <h1 className="text-4xl">متاسفانه صفحه مورد نظر شما پیدا نشد.</h1>
 
-            <Link to={type==="admin"? "/admin": "/"} className="no-underline">
+            <Link to={type==="admin"? "/my-react-site/admin": "/my-react-site"} className="no-underline">
                 <div className="flex no-underline justify-between items-center gap-x-2 px-3 py-2 bg-emerald-500 rounded-md">
                     <HomeRoundedIcon/>
                     <span>بازگشت به صفحه اصلی</span>

@@ -52,4 +52,24 @@
         font-family: Shabnam4;
         src: url(../public/data/font/Shabnam/Shabnam-Thin-FD.ttf);
     }
+    @font-face {
+        font-family: Dana1;
+        src: url(../public/data/font/Dana-Light.ttf);
+    }
+    @font-face {
+        font-family: Dana2;
+        src: url(../public/data/font/Dana-Regular.ttf);
+    }
+    @font-face {
+        font-family: Dana3;
+        src: url(../public/data/font/Dana-Medium.ttf);
+    }
+    @font-face {
+        font-family: Dana4;
+        src: url(../public/data/font/Dana-DemiBold.ttf);
+    }
+    @font-face {
+        font-family: Dana5;
+        src: url(../public/data/font/DanaFaNum-Medium.ttf);
+    }
 }

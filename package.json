@@ -1,7 +1,7 @@
 {
   "name": "dashboard-admin",
   "version": "0.1.0",
-  "homepage": "https://mobin-soltanzadeh.github.io/my-react-resum-site",
+  "homepage": "https://mobin-soltanzadeh.github.io/my-react-site",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",

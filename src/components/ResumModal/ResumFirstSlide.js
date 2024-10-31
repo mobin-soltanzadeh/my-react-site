@@ -3,7 +3,7 @@ import React from "react";
 export default function ResumFirstSlide() {
     return (
         <div className="flex flex-col gap-y-8 mt-20 overflow-hidden">
-            <h1 className="text-6xl">Profile</h1>
+            {/* <h1 className="text-6xl">Profile</h1> */}
 
             <div className="flex">
                 <div className="w-1/2 flex flex-col pr-14">

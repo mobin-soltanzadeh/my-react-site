@@ -11,7 +11,7 @@ export default function NewJoinMembers({lang}) {
 
     return (
         <table dir={lang==="en"? "ltr": "rtl"} className="NewJoinMembers basis-3/5 flex flex-col justify-center items-start gap-y-1 w-full p-4 border shadow-md rounded-lg">
-            <p className="text-2xl xl:text-4xl font-semibold mb-4">{lang==="en"? "Lates TransActions": "آخرین معامله"}</p>
+            <p className="text-2xl xl:text-4xl font-semibold mb-4">{lang==="en"? "Lates TransActions": "آخرین معامله ها"}</p>
 
             <thead className="flex flex-col justify-center items-start text-xl xl:text-2xl font-semibold w-full p-2">
                 <tr className="flex justify-between items-center gap-x-3 w-full">
