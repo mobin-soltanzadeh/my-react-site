@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-react-site/static/css/main.9cd39903.css",
-    "main.js": "/my-react-site/static/js/main.50dde645.js",
+    "main.css": "/my-react-site/static/css/main.2db041b2.css",
+    "main.js": "/my-react-site/static/js/main.6d860d86.js",
     "static/media/team.png": "/my-react-site/static/media/team.a342240c36b191dee7dc.png",
     "static/media/404.png": "/my-react-site/static/media/404.fc334f033c2ce641afea.png",
     "static/media/Adlery-Pro-trial.ttf": "/my-react-site/static/media/Adlery-Pro-trial.6f3a8bdb0dbcc9f265d0.ttf",
@@ -48,11 +48,11 @@
     "static/media/laptop2.png": "/my-react-site/static/media/laptop2.6eef46848c2b8711ea70.png",
     "static/media/header-logo1.webp": "/my-react-site/static/media/header-logo1.301002c40aac8d74128f.webp",
     "index.html": "/my-react-site/index.html",
-    "main.9cd39903.css.map": "/my-react-site/static/css/main.9cd39903.css.map",
-    "main.50dde645.js.map": "/my-react-site/static/js/main.50dde645.js.map"
+    "main.2db041b2.css.map": "/my-react-site/static/css/main.2db041b2.css.map",
+    "main.6d860d86.js.map": "/my-react-site/static/js/main.6d860d86.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cd39903.css",
-    "static/js/main.50dde645.js"
+    "static/css/main.2db041b2.css",
+    "static/js/main.6d860d86.js"
   ]
 }
