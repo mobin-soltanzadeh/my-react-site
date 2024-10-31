@@ -12,7 +12,7 @@ import ReportGmailerrorredOutlinedIcon from '@mui/icons-material/ReportGmailerro
 export default function Sidebar({lang}) {
     let result = (lang === "en" ? enSidebar: faSidebar);
 
-    let location = useLocation()``
+    let location = useLocation()
     
     return (
         <div dir={result[0]} className={`Sidebar basis-[13%] ${location.pathname==="/my-react-site/admin"? "hover:basis-1/5": ""} flex flex-col justify-start items-start gap-y-6 p-6 shadow-md border rounded-lg transition-[flex] duration-1000`}>
