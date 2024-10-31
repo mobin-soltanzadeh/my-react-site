@@ -12,7 +12,7 @@ export default function AdminHome() {
     const [language, setLanguage] = useOutletContext()
 
     return (
-        <div className="AdminHome flex flex-col justify-start items-center gap-y-6 w-full">
+        <div className="AdminHome basis-5/6 flex flex-col justify-start items-center gap-y-6 w-full">
             <Features lang={language} />
             <Chart lang={language} title={language==="en"? "Month Sale": "فروش ماهانه"} cartesian="10 10" data={monthSales} />
             
